@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21- Adicionar descontos ao pedido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3376e4c-fcba-4463-adde-c6d5e1f43b97</testCaseGuid>
+</TestCaseEntity>
