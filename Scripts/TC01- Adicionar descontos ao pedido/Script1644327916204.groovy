@@ -21,38 +21,34 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email (1)'), 'mayara.moraes@dataplace.com.br')
-
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/div_Senha (3) (1)'))
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'), 'mayara.moraes@dataplace.com.br')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Senha_senha'), 'jBu/h84nUum0DzfFUdyvAQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/div_1631 (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_1631'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/button_R27,00_minibutton btn default-btn bt_f0115f (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_R54,00_minibutton btn default-btn bt_b87cf5'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace - SFA/div_R30,00 (2)'), 'R$ 30,00')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R30,00'), 'R$ 30,00')
 
-WebUI.rightClick(findTestObject('Object Repository/Page_Dataplace - SFA/input_Quantidade_quantidade'))
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'), '1')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Quantidade_quantidade'), '2')
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_726247b5-c265-4956-a961-ba5_aae85e'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_Dataplace - SFA/input_Descontos_1cce8d64-9a55-47f2-98aa-3bf_c08561 (1)'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_726247b5-c265-4956-a961-ba5_aae85e'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/input_Descontos_1cce8d64-9a55-47f2-98aa-3bf_c08561 (1)'))
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_726247b5-c265-4956-a961-ba5_aae85e'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Dataplace - SFA/input_Descontos_1cce8d64-9a55-47f2-98aa-3bf_c08561 (1)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/input_Descontos_1cce8d64-9a55-47f2-98aa-3bf_c08561 (1)'), 
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_726247b5-c265-4956-a961-ba5_aae85e'), 
     '10,00')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace - SFA/input_R_precoLiquido'), '27,00')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido'), '')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace - SFA/div_R27,00 (1)'), 'R$ 54,00')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R27,00'), 'R$ 27,00')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/div_Confirmar (8)'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Confirmar'))
 
 WebUI.closeBrowser()
 

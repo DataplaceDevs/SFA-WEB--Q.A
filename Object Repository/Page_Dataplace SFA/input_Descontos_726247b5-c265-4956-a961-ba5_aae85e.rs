@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Descontos_1cce8d64-9a55-47f2-98aa-3bf_c08561 (1)</name>
+   <name>input_Descontos_726247b5-c265-4956-a961-ba5_aae85e</name>
    <tag></tag>
-   <elementGuidId>9991b0f4-09bc-4f81-bd76-2aa453c7efaa</elementGuidId>
+   <elementGuidId>48beb1e3-0062-4dc7-a336-d4920d71b682</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#1cce8d64-9a55-47f2-98aa-3bf08fc97eb5</value>
+         <key>XPATH</key>
+         <value>//input[@id='726247b5-c265-4956-a961-ba5cd1e4f5b7']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']//input[@id='1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+         <key>CSS</key>
+         <value>#726247b5-c265-4956-a961-ba5cd1e4f5b7</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,21 +35,21 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>1cce8d64-9a55-47f2-98aa-3bf08fc97eb5</value>
+      <value>726247b5-c265-4956-a961-ba5cd1e4f5b7</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;1cce8d64-9a55-47f2-98aa-3bf08fc97eb5&quot;)</value>
+      <value>id(&quot;726247b5-c265-4956-a961-ba5cd1e4f5b7&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+      <value>//input[@id='726247b5-c265-4956-a961-ba5cd1e4f5b7']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +63,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = '1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+      <value>//input[@id = '726247b5-c265-4956-a961-ba5cd1e4f5b7']</value>
    </webElementXpaths>
 </WebElementEntity>

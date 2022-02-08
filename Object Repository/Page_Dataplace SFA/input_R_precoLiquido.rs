@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Descontos_1cce8d64-9a55-47f2-98aa-3bf_c08561 (1)</name>
+   <name>input_R_precoLiquido</name>
    <tag></tag>
-   <elementGuidId>9991b0f4-09bc-4f81-bd76-2aa453c7efaa</elementGuidId>
+   <elementGuidId>255ba587-aa87-43a6-8aea-4eae0dcb3c91</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#1cce8d64-9a55-47f2-98aa-3bf08fc97eb5</value>
+         <key>XPATH</key>
+         <value>//input[@id='precoLiquido']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']//input[@id='1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+         <key>CSS</key>
+         <value>#precoLiquido</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,6 +24,13 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>precoLiquido</value>
+   </webElementProperties>
+   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
@@ -31,38 +38,31 @@
       <value>form-control ng-untouched ng-pristine ng-valid</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>1cce8d64-9a55-47f2-98aa-3bf08fc97eb5</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;1cce8d64-9a55-47f2-98aa-3bf08fc97eb5&quot;)</value>
+      <value>id(&quot;precoLiquido&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+      <value>//input[@id='precoLiquido']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/div/input</value>
+      <value>//div[5]/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = '1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+      <value>//input[@id = 'precoLiquido']</value>
    </webElementXpaths>
 </WebElementEntity>
