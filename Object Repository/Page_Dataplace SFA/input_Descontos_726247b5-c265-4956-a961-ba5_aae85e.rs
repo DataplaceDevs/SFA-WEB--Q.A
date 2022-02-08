@@ -13,6 +13,10 @@
          <key>CSS</key>
          <value>#726247b5-c265-4956-a961-ba5cd1e4f5b7</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '726247b5-c265-4956-a961-ba5cd1e4f5b7']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>

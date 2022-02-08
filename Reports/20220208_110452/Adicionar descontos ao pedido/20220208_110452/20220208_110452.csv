@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Adicionar descontos ao pedido,Chrome 97.0.4692.99,,,2022-02-08 11:04:55,2022-02-08 11:05:35,"40,524s",FAILED
+,,,,,,,
+Test Cases/TC01- Adicionar descontos ao pedido,Chrome 97.0.4692.99,,,2022-02-08 11:04:55,2022-02-08 11:05:35,"40,044s",FAILED
+"openBrowser("""")",Chrome 97.0.4692.99,,,2022-02-08 11:04:56,2022-02-08 11:04:58,"2,371s",PASSED
+"navigateToUrl(""http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"")",Chrome 97.0.4692.99,,,2022-02-08 11:04:58,2022-02-08 11:04:59,"1,021s",PASSED
+"setText(findTestObject(""Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""), ""mayara.moraes@dataplace.com.br"")",Chrome 97.0.4692.99,,,2022-02-08 11:04:59,2022-02-08 11:05:00,"0,866s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Dataplace - SFA/input_Senha_senha""), ""jBu/h84nUum0DzfFUdyvAQ=="")",Chrome 97.0.4692.99,,,2022-02-08 11:05:00,2022-02-08 11:05:01,"0,516s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/button_Login""))",Chrome 97.0.4692.99,,,2022-02-08 11:05:01,2022-02-08 11:05:01,"0,531s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/div_1631""))",Chrome 97.0.4692.99,,,2022-02-08 11:05:01,2022-02-08 11:05:02,"0,752s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/button_R54,00_minibutton btn default-btn bt_b87cf5""))",Chrome 97.0.4692.99,,,2022-02-08 11:05:02,2022-02-08 11:05:03,"0,689s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dataplace SFA/div_R30,00""), ""R$ 30,00"")",Chrome 97.0.4692.99,,,2022-02-08 11:05:03,2022-02-08 11:05:03,"0,491s",PASSED
+"setText(findTestObject(""Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade""), quantidade)",Chrome 97.0.4692.99,,,2022-02-08 11:05:03,2022-02-08 11:05:04,"0,913s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/input_Descontos_726247b5-c265-4956-a961-ba5_aae85e""))",Chrome 97.0.4692.99,,,2022-02-08 11:05:04,2022-02-08 11:05:35,"31,330s",FAILED

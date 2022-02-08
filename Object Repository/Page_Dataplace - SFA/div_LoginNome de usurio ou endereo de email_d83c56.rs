@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Descontos_1cce8d64-9a55-47f2-98aa-3bf_c08561 (1)</name>
+   <name>div_LoginNome de usurio ou endereo de email_d83c56</name>
    <tag></tag>
-   <elementGuidId>9991b0f4-09bc-4f81-bd76-2aa453c7efaa</elementGuidId>
+   <elementGuidId>8491d708-abfe-41f3-8c9c-18110a1aa266</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+         <value>//div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#1cce8d64-9a55-47f2-98aa-3bf08fc97eb5</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;1cce8d64-9a55-47f2-98aa-3bf08fc97eb5&quot;)[count(. | //*[@id = '1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']) = count(//*[@id = '1cce8d64-9a55-47f2-98aa-3bf08fc97eb5'])]</value>
+         <value>div.container.main-container</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,48 +21,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-pristine ng-valid</value>
+      <value>container main-container</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>1cce8d64-9a55-47f2-98aa-3bf08fc97eb5</value>
+      <value>LoginNome de usuário ou endereço de emailSenhaLoginEsqueci minha senha</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;1cce8d64-9a55-47f2-98aa-3bf08fc97eb5&quot;)</value>
+      <value>/html[1]/body[1]/app-root[1]/app-account-root[1]/div[@class=&quot;container main-container&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//input[@id='1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/div[2]/div/div/input</value>
+      <value>//div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = '1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+      <value>//div[(text() = 'LoginNome de usuário ou endereço de emailSenhaLoginEsqueci minha senha' or . = 'LoginNome de usuário ou endereço de emailSenhaLoginEsqueci minha senha')]</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Adicionar descontos ao pedido" time="34.62" tests="2" failures="0" errors="0">
+   <testsuite name="Adicionar descontos ao pedido" tests="2" failures="0" errors="0" time="34.62" skipped="0" timestamp="2022-02-08 15:38:44" hostname="Administrator - 172.16.2.74" id="Test Suites/Adicionar descontos ao pedido">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\SFA-WEB--Q.A\\Reports\\20220208_153840\\Adicionar descontos ao pedido\\20220208_153840"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\SFA-WEB--Q.A\\Reports\\20220208_153840\\Adicionar descontos ao pedido\\20220208_153840\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 172.16.2.74"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Firefox 96.0"/>
+         <property name="hostAddress" value="172.16.2.74"/>
+         <property name="sessionId" value="8ecbfa03-2ca7-4069-98fc-8b4e266923a3"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01- Adicionar descontos ao pedido" time="18.03" classname="Test Cases/TC01- Adicionar descontos ao pedido" status="PASSED">
+         <system-out><![CDATA[2022-02-08 15:38:44 - [TEST_CASE][PASSED] - Test Cases/TC01- Adicionar descontos ao pedido: Test Cases/TC01- Adicionar descontos ao pedido
+
+2022-02-08 15:38:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-08 15:38:45 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-02-08 15:38:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-08 15:38:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-08 15:38:50 - [TEST_STEP][PASSED] - navigateToUrl("http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"): Navigate to 'http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos' successfully
+
+2022-02-08 15:38:51 - [MESSAGE][PASSED] - Navigate to 'http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos' successfully
+
+2022-02-08 15:38:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email"), "mayara.moraes@dataplace.com.br"): Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-02-08 15:38:52 - [MESSAGE][PASSED] - Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-02-08 15:38:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Dataplace - SFA/input_Senha_senha"), "jBu/h84nUum0DzfFUdyvAQ=="): Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-02-08 15:38:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-02-08 15:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace - SFA/button_Login")): Object: 'Object Repository/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-02-08 15:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-02-08 15:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/div_1631")): Object: 'Object Repository/Page_Dataplace SFA/div_1631' is clicked on
+
+2022-02-08 15:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/div_1631' is clicked on
+
+2022-02-08 15:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/button_R54,00_minibutton btn default-btn bt_b87cf5")): Object: 'Object Repository/Page_Dataplace SFA/button_R54,00_minibutton btn default-btn bt_b87cf5' is clicked on
+
+2022-02-08 15:38:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/button_R54,00_minibutton btn default-btn bt_b87cf5' is clicked on
+
+2022-02-08 15:38:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dataplace SFA/div_R30,00"), "R$ 30,00"): Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R30,00' are matched.
+
+2022-02-08 15:38:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R30,00' are matched.
+
+2022-02-08 15:38:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade"), quantidade): Text '1' is set on object 'Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'
+
+2022-02-08 15:38:56 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'
+
+2022-02-08 15:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b")): Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is clicked on
+
+2022-02-08 15:38:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is clicked on
+
+2022-02-08 15:38:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b")): Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is clicked on
+
+2022-02-08 15:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is clicked on
+
+2022-02-08 15:38:58 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b")): Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is hovered
+
+2022-02-08 15:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is hovered
+
+2022-02-08 15:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b"), descontos): Text '10,00' is set on object 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'
+
+2022-02-08 15:39:00 - [MESSAGE][PASSED] - Text '10,00' is set on object 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'
+
+2022-02-08 15:39:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/input_R_precoLiquido")): Object: 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido' is clicked on
+
+2022-02-08 15:39:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido' is clicked on
+
+2022-02-08 15:39:00 - [TEST_STEP][PASSED] - sleep(500): null
+
+2022-02-08 15:39:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dataplace SFA/input_R_precoLiquido"), ""): Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido' are matched.
+
+2022-02-08 15:39:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido' are matched.
+
+2022-02-08 15:39:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dataplace SFA/div_R27,00"), total): Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R27,00' are matched.
+
+2022-02-08 15:39:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R27,00' are matched.
+
+2022-02-08 15:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/div_Confirmar")): Object: 'Object Repository/Page_Dataplace SFA/div_Confirmar' is clicked on
+
+2022-02-08 15:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/div_Confirmar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC01- Adicionar descontos ao pedido" time="16.015" classname="Test Cases/TC01- Adicionar descontos ao pedido" status="PASSED">
+         <system-out><![CDATA[2022-02-08 15:39:02 - [TEST_CASE][PASSED] - Test Cases/TC01- Adicionar descontos ao pedido: Test Cases/TC01- Adicionar descontos ao pedido
+
+2022-02-08 15:39:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-08 15:39:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-02-08 15:39:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2022-02-08 15:39:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-08 15:39:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-08 15:39:07 - [TEST_STEP][PASSED] - navigateToUrl("http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"): Navigate to 'http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos' successfully
+
+2022-02-08 15:39:07 - [MESSAGE][PASSED] - Navigate to 'http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos' successfully
+
+2022-02-08 15:39:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email"), "mayara.moraes@dataplace.com.br"): Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-02-08 15:39:08 - [MESSAGE][PASSED] - Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-02-08 15:39:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Dataplace - SFA/input_Senha_senha"), "jBu/h84nUum0DzfFUdyvAQ=="): Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-02-08 15:39:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-02-08 15:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace - SFA/button_Login")): Object: 'Object Repository/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-02-08 15:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-02-08 15:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/div_1631")): Object: 'Object Repository/Page_Dataplace SFA/div_1631' is clicked on
+
+2022-02-08 15:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/div_1631' is clicked on
+
+2022-02-08 15:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/button_R54,00_minibutton btn default-btn bt_b87cf5")): Object: 'Object Repository/Page_Dataplace SFA/button_R54,00_minibutton btn default-btn bt_b87cf5' is clicked on
+
+2022-02-08 15:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/button_R54,00_minibutton btn default-btn bt_b87cf5' is clicked on
+
+2022-02-08 15:39:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dataplace SFA/div_R30,00"), "R$ 30,00"): Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R30,00' are matched.
+
+2022-02-08 15:39:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R30,00' are matched.
+
+2022-02-08 15:39:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade"), quantidade): Text '2' is set on object 'Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'
+
+2022-02-08 15:39:12 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'
+
+2022-02-08 15:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b")): Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is clicked on
+
+2022-02-08 15:39:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is clicked on
+
+2022-02-08 15:39:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b")): Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is clicked on
+
+2022-02-08 15:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is clicked on
+
+2022-02-08 15:39:14 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b")): Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is hovered
+
+2022-02-08 15:39:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b' is hovered
+
+2022-02-08 15:39:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b"), descontos): Text '10,00' is set on object 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'
+
+2022-02-08 15:39:16 - [MESSAGE][PASSED] - Text '10,00' is set on object 'Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'
+
+2022-02-08 15:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/input_R_precoLiquido")): Object: 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido' is clicked on
+
+2022-02-08 15:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido' is clicked on
+
+2022-02-08 15:39:16 - [TEST_STEP][PASSED] - sleep(500): null
+
+2022-02-08 15:39:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dataplace SFA/input_R_precoLiquido"), ""): Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido' are matched.
+
+2022-02-08 15:39:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido' are matched.
+
+2022-02-08 15:39:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dataplace SFA/div_R27,00"), total): Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R27,00' are matched.
+
+2022-02-08 15:39:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R27,00' are matched.
+
+2022-02-08 15:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/div_Confirmar")): Object: 'Object Repository/Page_Dataplace SFA/div_Confirmar' is clicked on
+
+2022-02-08 15:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/div_Confirmar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-08 15:38:44 - [TEST_SUITE][PASSED] - Adicionar descontos ao pedido: Test Cases/TC01- Adicionar descontos ao pedido]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

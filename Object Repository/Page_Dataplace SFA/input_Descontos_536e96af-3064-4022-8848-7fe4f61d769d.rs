@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Descontos_1cce8d64-9a55-47f2-98aa-3bf_c08561 (1)</name>
+   <name>input_Descontos_536e96af-3064-4022-8848-7fe4f61d769d</name>
    <tag></tag>
-   <elementGuidId>9991b0f4-09bc-4f81-bd76-2aa453c7efaa</elementGuidId>
+   <elementGuidId>a7f04045-650b-4dc1-af8a-79dc90101555</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+         <value>//input[@id='536e96af-3064-4022-8848-7fe4f61d769d']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#1cce8d64-9a55-47f2-98aa-3bf08fc97eb5</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;1cce8d64-9a55-47f2-98aa-3bf08fc97eb5&quot;)[count(. | //*[@id = '1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']) = count(//*[@id = '1cce8d64-9a55-47f2-98aa-3bf08fc97eb5'])]</value>
+         <value>#536e96af-3064-4022-8848-7fe4f61d769d</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -39,21 +35,21 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>1cce8d64-9a55-47f2-98aa-3bf08fc97eb5</value>
+      <value>536e96af-3064-4022-8848-7fe4f61d769d</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;1cce8d64-9a55-47f2-98aa-3bf08fc97eb5&quot;)</value>
+      <value>id(&quot;536e96af-3064-4022-8848-7fe4f61d769d&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+      <value>//input[@id='536e96af-3064-4022-8848-7fe4f61d769d']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -67,6 +63,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = '1cce8d64-9a55-47f2-98aa-3bf08fc97eb5']</value>
+      <value>//input[@id = '536e96af-3064-4022-8848-7fe4f61d769d']</value>
    </webElementXpaths>
 </WebElementEntity>

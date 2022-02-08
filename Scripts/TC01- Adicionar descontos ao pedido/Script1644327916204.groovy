@@ -33,22 +33,23 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_R54,00_m
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R30,00'), 'R$ 30,00')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'), '1')
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'), quantidade)
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_726247b5-c265-4956-a961-ba5_aae85e'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_726247b5-c265-4956-a961-ba5_aae85e'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_726247b5-c265-4956-a961-ba5_aae85e'))
+WebUI.mouseOver(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_726247b5-c265-4956-a961-ba5_aae85e'), 
-    '10,00')
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'), 
+    descontos)
 
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido'))
+
+sleep(500)
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido'), '')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R27,00'), 'R$ 27,00')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R27,00'), total)
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Confirmar'))
-
-WebUI.closeBrowser()
 
