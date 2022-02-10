@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "0306D966588212300716FEA8BFCB56DB",
+  "keywordClasses": [
+    {
+      "name": "fazerpedido.fazerpedidos",
+      "keywordMethods": [
+        {
+          "name": "getPedido",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

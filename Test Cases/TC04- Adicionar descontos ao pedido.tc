@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04- Adicionar descontos ao pedido</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3376e4c-fcba-4463-adde-c6d5e1f43b97</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>4f743a23-4e73-402a-8b50-bdc4c8b6ffd5</id>
+      <masked>false</masked>
+      <name>quantidade</name>
+   </variable>
+   <variable>
+      <defaultValue>'10,00'</defaultValue>
+      <description></description>
+      <id>cf776ae1-90eb-4227-a6e2-61068424c6b2</id>
+      <masked>false</masked>
+      <name>desconto</name>
+   </variable>
+   <variable>
+      <defaultValue>'27,00'</defaultValue>
+      <description></description>
+      <id>0f2c3658-978b-47e5-a379-b96c25100484</id>
+      <masked>false</masked>
+      <name>preco</name>
+   </variable>
+   <variable>
+      <defaultValue>'R$ 27,00'</defaultValue>
+      <description></description>
+      <id>f1538728-8da4-4c20-8ffe-b910f7e4e23b</id>
+      <masked>false</masked>
+      <name>total</name>
+   </variable>
+</TestCaseEntity>

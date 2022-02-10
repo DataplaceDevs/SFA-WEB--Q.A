@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01- Adicionar descontos ao pedido</name>
+   <name>TC03- Adicionar ST desconto</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b3376e4c-fcba-4463-adde-c6d5e1f43b97</testCaseGuid>
+   <testCaseGuid>52bb7aae-6946-41e6-9a93-569f3a10b490</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>1cc6e8d1-98fb-49f1-ab05-157cd80cbf46</id>
+      <id>523aa708-5eb9-41a2-9689-003de48647ff</id>
       <masked>false</masked>
       <name>quantidade</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e58884bf-f306-407d-9a95-dc4f442a0b88</id>
+      <id>973255ad-4ac2-440a-8991-b70add4c0821</id>
       <masked>false</masked>
       <name>descontos</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>149c8b91-dd62-4a03-b068-4b9a608309f4</id>
+      <id>476c56dc-81e1-4b51-a5b7-ca51cd24511f</id>
+      <masked>false</masked>
+      <name>preco</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>990a298a-6e93-454f-95e9-53d8dcf8f00b</id>
       <masked>false</masked>
       <name>total</name>
    </variable>

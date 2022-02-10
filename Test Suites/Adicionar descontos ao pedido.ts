@@ -15,7 +15,7 @@
       <guid>ac317606-2dde-4195-ad90-c146076cc394</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC01- Adicionar descontos ao pedido</testCaseId>
+      <testCaseId>Test Cases/TC04- Adicionar descontos ao pedido</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>61aacce3-12f8-4850-8f8b-fa01471f7d02</id>
@@ -26,22 +26,28 @@
          <testDataId>Data Files/Adicionar descontos ao pedido</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>61aacce3-12f8-4850-8f8b-fa01471f7d02</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>quantidade</value>
-         <variableId>1cc6e8d1-98fb-49f1-ab05-157cd80cbf46</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4f743a23-4e73-402a-8b50-bdc4c8b6ffd5</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>61aacce3-12f8-4850-8f8b-fa01471f7d02</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>descontos</value>
-         <variableId>e58884bf-f306-407d-9a95-dc4f442a0b88</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cf776ae1-90eb-4227-a6e2-61068424c6b2</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>61aacce3-12f8-4850-8f8b-fa01471f7d02</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>total</value>
-         <variableId>149c8b91-dd62-4a03-b068-4b9a608309f4</variableId>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0f2c3658-978b-47e5-a379-b96c25100484</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f1538728-8da4-4c20-8ffe-b910f7e4e23b</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

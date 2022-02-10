@@ -27,29 +27,25 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Dataplace - SFA/in
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace - SFA/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_1631'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_1665 emitido por Mayara Normandia      _bd6cf1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/button_R54,00_minibutton btn default-btn bt_b87cf5'))
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/i_R14,31_fas fa-edit text-primary m-auto'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R30,00'), 'R$ 30,00')
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R15,00'), 'R$ 15,00')
 
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'), quantidade)
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'), '1')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'), Keys.chord(Keys.TAB))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'))
-
-WebUI.mouseOver(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_fb9397a8-264c-4fa4-b5d5-0ab_150c4b'), 
-    descontos)
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_a3e7284e-dac3-4315-9e3c-ae0_1f556a'))
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido'))
 
-sleep(500)
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido'), '')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R27,00'), total)
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R13,50'), 'R$ 13,50')
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Confirmar'))
+
+WebUI.closeBrowser()
 
