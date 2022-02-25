@@ -6,14 +6,15 @@
    <elementGuidId>27f3987a-b85e-4fd5-9031-149c4e8e2ff3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;01ec0b13-a18f-4965-855c-42a2ec42d9e2&quot;]
-
-</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#0c15844e-4f91-4a1f-8d93-e67d444408bc</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/ngb-modal-window/div/div/app-pedido-item-edit/div[2]/div[1]/div[4]/div[2]/div/div/input
+
+
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

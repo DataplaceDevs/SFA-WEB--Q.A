@@ -37,15 +37,17 @@ WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Quantid
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'), Keys.chord(Keys.TAB))
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_a3e7284e-dac3-4315-9e3c-ae0_1f556a'))
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_a3e7284e-dac3-4315-9e3c-ae0_1f556a'), 
+    '10,00')
 
-WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido'))
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido'), '13,50')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido'), '')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R13,50'), 'R$ 13,50')
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Confirmar'))
 
 WebUI.closeBrowser()
+
+
 

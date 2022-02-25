@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="11" time="15.964" tests="1" failures="0" errors="1">
+   <testsuite name="11" tests="1" failures="0" errors="1" time="15.964" skipped="0" timestamp="2022-02-22 23:22:03" hostname="Administrator - 172.16.2.74" id="Test Suites/11">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\git\\SFA-WEB--Q.A\\Reports\\20220222_232159\\11\\20220222_232159"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\git\\SFA-WEB--Q.A\\Reports\\20220222_232159\\11\\20220222_232159\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - 172.16.2.74"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 98.0.4758.102"/>
+         <property name="hostAddress" value="172.16.2.74"/>
+         <property name="sessionId" value="839ef59802943ef9ebb6df853611bebb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/11" time="15.409" classname="Test Cases/11" status="ERROR">
+         <error type="ERROR" message="Test Cases/11 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.multiply() is applicable for argument types: (java.lang.String) values: [1]
+Possible solutions: multiply(java.lang.Number)
+	at 11.run(11:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645582919241.run(TempTestSuite1645582919241.groovy:36)
+"/>
+         <system-out><![CDATA[2022-02-22 23:22:03 - [TEST_CASE][ERROR] - Test Cases/11: Test Cases/11 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.multiply() is applicable for argument types: (java.lang.String) values: [1]
+Possible solutions: multiply(java.lang.Number)
+	at 11.run(11:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645582919241.run(TempTestSuite1645582919241.groovy:36)
+
+
+2022-02-22 23:22:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-02-22 23:22:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-02-22 23:22:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-02-22 23:22:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-02-22 23:22:06 - [TEST_STEP][PASSED] - navigateToUrl("http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"): Navigate to 'http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos' successfully
+
+2022-02-22 23:22:07 - [MESSAGE][PASSED] - Navigate to 'http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos' successfully
+
+2022-02-22 23:22:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email"), "mayara.moraes@dataplace.com.br"): Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-02-22 23:22:08 - [MESSAGE][PASSED] - Text 'mayara.moraes@dataplace.com.br' is set on object 'Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email'
+
+2022-02-22 23:22:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace - SFA/form_LoginNome de usurio ou endereo de emai_327498")): Object: 'Object Repository/Page_Dataplace - SFA/form_LoginNome de usurio ou endereo de emai_327498' is clicked on
+
+2022-02-22 23:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/form_LoginNome de usurio ou endereo de emai_327498' is clicked on
+
+2022-02-22 23:22:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Dataplace - SFA/input_Senha_senha"), "i+K1X3doZYBu6F0i+9QHbg=="): Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-02-22 23:22:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-02-22 23:22:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace - SFA/button_Login")): Object: 'Object Repository/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-02-22 23:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-02-22 23:22:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56")): Object: 'Object Repository/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56' is clicked on
+
+2022-02-22 23:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56' is clicked on
+
+2022-02-22 23:22:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Dataplace - SFA/input_Senha_senha"), "jBu/h84nUum0DzfFUdyvAQ=="): Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-02-22 23:22:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Dataplace - SFA/input_Senha_senha'
+
+2022-02-22 23:22:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace - SFA/button_Login")): Object: 'Object Repository/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-02-22 23:22:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace - SFA/button_Login' is clicked on
+
+2022-02-22 23:22:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/div_1690")): Object: 'Object Repository/Page_Dataplace SFA/div_1690' is clicked on
+
+2022-02-22 23:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/div_1690' is clicked on
+
+2022-02-22 23:22:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/i_R15,90_fas fa-edit text-primary m-auto")): Object: 'Object Repository/Page_Dataplace SFA/i_R15,90_fas fa-edit text-primary m-auto' is clicked on
+
+2022-02-22 23:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/i_R15,90_fas fa-edit text-primary m-auto' is clicked on
+
+2022-02-22 23:22:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dataplace SFA/div_R15,00"), "R$ 30,00"): Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R15,00' are matched.
+
+2022-02-22 23:22:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R15,00' are matched.
+
+2022-02-22 23:22:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade"), quantidade): Text '1' is set on object 'Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'
+
+2022-02-22 23:22:14 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'
+
+2022-02-22 23:22:14 - [TEST_STEP][PASSED] - out.println(quantidade): null
+
+2022-02-22 23:22:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/input_Descontos_f13006f7-bd1a-4c10-947c-34b_e96160")): Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_f13006f7-bd1a-4c10-947c-34b_e96160' is clicked on
+
+2022-02-22 23:22:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/input_Descontos_f13006f7-bd1a-4c10-947c-34b_e96160' is clicked on
+
+2022-02-22 23:22:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dataplace SFA/input_Descontos_f13006f7-bd1a-4c10-947c-34b_e96160"), desconto): Text '10,00' is set on object 'Object Repository/Page_Dataplace SFA/input_Descontos_f13006f7-bd1a-4c10-947c-34b_e96160'
+
+2022-02-22 23:22:16 - [MESSAGE][PASSED] - Text '10,00' is set on object 'Object Repository/Page_Dataplace SFA/input_Descontos_f13006f7-bd1a-4c10-947c-34b_e96160'
+
+2022-02-22 23:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/div_")): Object: 'Object Repository/Page_Dataplace SFA/div_' is clicked on
+
+2022-02-22 23:22:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/div_' is clicked on
+
+2022-02-22 23:22:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/div_Descontos")): Object: 'Object Repository/Page_Dataplace SFA/div_Descontos' is clicked on
+
+2022-02-22 23:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/div_Descontos' is clicked on
+
+2022-02-22 23:22:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Dataplace SFA/input_R_precoLiquido")): Object: 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido' is clicked on
+
+2022-02-22 23:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido' is clicked on
+
+2022-02-22 23:22:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Dataplace SFA/input_R_precoLiquido"), precoLiq): Text '27,00' is set on object 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido'
+
+2022-02-22 23:22:18 - [MESSAGE][PASSED] - Text '27,00' is set on object 'Object Repository/Page_Dataplace SFA/input_R_precoLiquido'
+
+2022-02-22 23:22:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Dataplace SFA/div_R13,50"), subTotal): Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R13,50' are matched.
+
+2022-02-22 23:22:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Dataplace SFA/div_R13,50' are matched.
+
+2022-02-22 23:22:18 - [TEST_STEP][ERROR] - if (subTotal == precoLiq.multiply(quantidade)): Test Cases/11 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.multiply() is applicable for argument types: (java.lang.String) values: [1]
+Possible solutions: multiply(java.lang.Number)
+	at 11.run(11:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645582919241.run(TempTestSuite1645582919241.groovy:36)
+
+
+2022-02-22 23:22:18 - [MESSAGE][ERROR] - Test Cases/11 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.multiply() is applicable for argument types: (java.lang.String) values: [1]
+Possible solutions: multiply(java.lang.Number)
+	at 11.run(11:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645582919241.run(TempTestSuite1645582919241.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-02-22 23:22:03 - [TEST_CASE][ERROR] - Test Cases/11: Test Cases/11 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.multiply() is applicable for argument types: (java.lang.String) values: [1]
+Possible solutions: multiply(java.lang.Number)
+	at 11.run(11:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645582919241.run(TempTestSuite1645582919241.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-02-22 23:22:03 - [TEST_SUITE][ERROR] - 11: Test Cases/11 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.multiply() is applicable for argument types: (java.lang.String) values: [1]
+Possible solutions: multiply(java.lang.Number)
+	at 11.run(11:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645582919241.run(TempTestSuite1645582919241.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-02-22 23:22:03 - [TEST_SUITE][ERROR] - 11: Test Cases/11 FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: java.lang.String.multiply() is applicable for argument types: (java.lang.String) values: [1]
+Possible solutions: multiply(java.lang.Number)
+	at 11.run(11:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1645582919241.run(TempTestSuite1645582919241.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

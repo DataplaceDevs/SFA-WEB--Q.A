@@ -56,7 +56,14 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLi
 WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido'), preco)
 
 System.out.println("passou por aqui")
-if(WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R27,00'),  preco.multiply(quantidade))) {
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/div_R27,00'), total)
+
+WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Confirmar'))
+
+
+
+/*if(,  preco.multiply(quantidade))) {
 	System.out.println("valor valido")
 	WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Confirmar'))
 	
@@ -64,5 +71,5 @@ if(WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/
 }else {
 	System.out.println("valor invalido")
 }
-WebUI.closeBrowser()
+WebUI.closeBrowser()*/
 

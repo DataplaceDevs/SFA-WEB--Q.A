@@ -6,12 +6,12 @@
    <elementGuidId>6506fca4-139f-469d-9126-787c67fc17e0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='page-content-wrapper']/div/app-pedido-main-tabs/div/app-pedidos-detail/div[4]/div[2]/table/tbody/tr/td[10]/button/i</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>i.fas.fa-edit.text-primary.m-auto</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;page-content-wrapper&quot;]/div/app-pedido-main-tabs/div/app-pedidos-detail/div[4]/div[2]/table/tbody/tr/td[10]/button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+11,Chrome 98.0.4758.102,,,2022-02-22 22:45:52,2022-02-22 22:46:09,"17,274s",PASSED
+,,,,,,,
+Test Cases/11,Chrome 98.0.4758.102,,,2022-02-22 22:45:52,2022-02-22 22:46:09,"16,696s",PASSED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-02-22 22:45:53,2022-02-22 22:45:56,"2,664s",PASSED
+"navigateToUrl(""http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"")",Chrome 98.0.4758.102,,,2022-02-22 22:45:56,2022-02-22 22:45:56,"0,849s",PASSED
+"setText(findTestObject(""Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""), ""mayara.moraes@dataplace.com.br"")",Chrome 98.0.4758.102,,,2022-02-22 22:45:56,2022-02-22 22:45:57,"1,014s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/form_LoginNome de usurio ou endereo de emai_327498""))",Chrome 98.0.4758.102,,,2022-02-22 22:45:57,2022-02-22 22:45:58,"0,453s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Dataplace - SFA/input_Senha_senha""), ""i+K1X3doZYBu6F0i+9QHbg=="")",Chrome 98.0.4758.102,,,2022-02-22 22:45:58,2022-02-22 22:45:58,"0,490s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/button_Login""))",Chrome 98.0.4758.102,,,2022-02-22 22:45:58,2022-02-22 22:45:59,"0,525s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56""))",Chrome 98.0.4758.102,,,2022-02-22 22:45:59,2022-02-22 22:45:59,"0,638s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Dataplace - SFA/input_Senha_senha""), ""jBu/h84nUum0DzfFUdyvAQ=="")",Chrome 98.0.4758.102,,,2022-02-22 22:45:59,2022-02-22 22:46:00,"0,437s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/button_Login""))",Chrome 98.0.4758.102,,,2022-02-22 22:46:00,2022-02-22 22:46:00,"0,532s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/div_1690""))",Chrome 98.0.4758.102,,,2022-02-22 22:46:00,2022-02-22 22:46:01,"0,847s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/i_R15,90_fas fa-edit text-primary m-auto""))",Chrome 98.0.4758.102,,,2022-02-22 22:46:01,2022-02-22 22:46:02,"0,709s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dataplace SFA/div_R15,00""), ""R$ 30,00"")",Chrome 98.0.4758.102,,,2022-02-22 22:46:02,2022-02-22 22:46:03,"0,519s",PASSED
+"setText(findTestObject(""Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade""), quantidade)",Chrome 98.0.4758.102,,,2022-02-22 22:46:03,2022-02-22 22:46:04,"0,965s",PASSED
+out.println(quantidade),Chrome 98.0.4758.102,,,2022-02-22 22:46:04,2022-02-22 22:46:04,"0,026s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/input_Descontos_f13006f7-bd1a-4c10-947c-34b_e96160""))",Chrome 98.0.4758.102,,,2022-02-22 22:46:04,2022-02-22 22:46:04,"0,467s",PASSED
+"setText(findTestObject(""Object Repository/Page_Dataplace SFA/input_Descontos_f13006f7-bd1a-4c10-947c-34b_e96160""), desconto)",Chrome 98.0.4758.102,,,2022-02-22 22:46:04,2022-02-22 22:46:05,"1,096s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/div_""))",Chrome 98.0.4758.102,,,2022-02-22 22:46:05,2022-02-22 22:46:06,"0,511s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/div_Descontos""))",Chrome 98.0.4758.102,,,2022-02-22 22:46:06,2022-02-22 22:46:06,"0,417s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/input_R_precoLiquido""))",Chrome 98.0.4758.102,,,2022-02-22 22:46:06,2022-02-22 22:46:06,"0,421s",PASSED
+"setText(findTestObject(""Object Repository/Page_Dataplace SFA/input_R_precoLiquido""), precoLiq)",Chrome 98.0.4758.102,,,2022-02-22 22:46:06,2022-02-22 22:46:07,"0,767s",PASSED
+"Total = verifyElementText(findTestObject(""Object Repository/Page_Dataplace SFA/div_R13,50""), subTotal)",Chrome 98.0.4758.102,,,2022-02-22 22:46:07,2022-02-22 22:46:08,"0,478s",PASSED
+out.println(Total),Chrome 98.0.4758.102,,,2022-02-22 22:46:08,2022-02-22 22:46:08,"0,001s",PASSED
+"if (subTotal != ""R$ 27,00"")",Chrome 98.0.4758.102,,,2022-02-22 22:46:08,2022-02-22 22:46:08,"0,000s",PASSED
+else,Chrome 98.0.4758.102,,,2022-02-22 22:46:08,2022-02-22 22:46:08,"0,001s",PASSED
+"out.println(""passou por aqui"")",Chrome 98.0.4758.102,,,2022-02-22 22:46:08,2022-02-22 22:46:08,"0,000s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/div_Confirmar""))",Chrome 98.0.4758.102,,,2022-02-22 22:46:08,2022-02-22 22:46:08,"0,422s",PASSED
+closeBrowser(),Chrome 98.0.4758.102,,,2022-02-22 22:46:08,2022-02-22 22:46:09,"0,679s",PASSED

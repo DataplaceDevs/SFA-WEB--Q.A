@@ -1,0 +1,4 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+11,,,,2022-02-23 09:04:32,2022-02-23 09:04:33,"0,902s",ERROR
+,,,,,,,
+Test Cases/11,,,,2022-02-23 09:04:32,2022-02-23 09:04:33,"0,458s",ERROR

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>11</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b996160c-57b9-4fae-a6e0-3bcdc5de8151</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8fdc306d-654f-4440-8864-6158be0769aa</id>
+      <masked>false</masked>
+      <name>quantidade</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>df6b4fa1-f439-474c-a806-2823c746701f</id>
+      <masked>false</masked>
+      <name>desconto</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e4667328-e3bd-4749-a2d0-bf69321760dd</id>
+      <masked>false</masked>
+      <name>precoLiq</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b2836540-8aab-4cb0-8eea-57942dec8e92</id>
+      <masked>false</masked>
+      <name>subTotal</name>
+   </variable>
+</TestCaseEntity>

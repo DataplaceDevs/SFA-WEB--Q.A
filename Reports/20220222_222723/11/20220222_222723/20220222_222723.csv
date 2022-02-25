@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+11,Chrome 98.0.4758.102,,,2022-02-22 22:27:27,2022-02-22 22:27:39,"11,427s",FAILED
+,,,,,,,
+Test Cases/11,Chrome 98.0.4758.102,,,2022-02-22 22:27:28,2022-02-22 22:27:39,"10,861s",FAILED
+"openBrowser("""")",Chrome 98.0.4758.102,,,2022-02-22 22:27:28,2022-02-22 22:27:31,"2,847s",PASSED
+"navigateToUrl(""http://172.16.1.21:7802/pt/account/login?returnUrl=%2Fpedidos"")",Chrome 98.0.4758.102,,,2022-02-22 22:27:31,2022-02-22 22:27:32,"0,925s",PASSED
+"setText(findTestObject(""Object Repository/Page_Dataplace - SFA/input_Nome de usurio ou endereo de email_email""), ""mayara.moraes@dataplace.com.br"")",Chrome 98.0.4758.102,,,2022-02-22 22:27:32,2022-02-22 22:27:33,"0,954s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/form_LoginNome de usurio ou endereo de emai_327498""))",Chrome 98.0.4758.102,,,2022-02-22 22:27:33,2022-02-22 22:27:34,"0,471s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Dataplace - SFA/input_Senha_senha""), ""i+K1X3doZYBu6F0i+9QHbg=="")",Chrome 98.0.4758.102,,,2022-02-22 22:27:34,2022-02-22 22:27:34,"0,488s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/button_Login""))",Chrome 98.0.4758.102,,,2022-02-22 22:27:34,2022-02-22 22:27:35,"0,509s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/div_LoginNome de usurio ou endereo de email_d83c56""))",Chrome 98.0.4758.102,,,2022-02-22 22:27:35,2022-02-22 22:27:35,"0,647s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Dataplace - SFA/input_Senha_senha""), ""jBu/h84nUum0DzfFUdyvAQ=="")",Chrome 98.0.4758.102,,,2022-02-22 22:27:35,2022-02-22 22:27:36,"0,442s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace - SFA/button_Login""))",Chrome 98.0.4758.102,,,2022-02-22 22:27:36,2022-02-22 22:27:36,"0,500s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/div_1690""))",Chrome 98.0.4758.102,,,2022-02-22 22:27:36,2022-02-22 22:27:37,"0,816s",PASSED
+"click(findTestObject(""Object Repository/Page_Dataplace SFA/i_R15,90_fas fa-edit text-primary m-auto""))",Chrome 98.0.4758.102,,,2022-02-22 22:27:37,2022-02-22 22:27:38,"0,756s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Dataplace SFA/div_R15,00""), ""R$ 15,00"")",Chrome 98.0.4758.102,,,2022-02-22 22:27:38,2022-02-22 22:27:39,"0,788s",FAILED

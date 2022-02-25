@@ -55,14 +55,33 @@ WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_BUCHA - 013
 
 WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Produto_typeahead-produto'), 'BUCHA')
 
+
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'), '1')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_Dataplace SFA/input_Quantidade_quantidade'), Keys.chord(Keys.TAB))
+
+WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/input_Descontos_a3e7284e-dac3-4315-9e3c-ae0_1f556a'),
+	'10,00')
+
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido'), '')
 
 WebUI.verifyElementText(findTestObject('Page_Dataplace SFA/div_R30,00'), 'R$ 30,00')
 
+if (findTestObject('Object Repository/Page_Dataplace SFA/input_R_precoLiquido, R$ 30,00')!= 'R$ 30,00'){
+	System.out/println("Oops! Deu um resultado não esperado: ");
+  }
+  else {
+	   System.out.println("OK! Passou do teste.");
+
+}
+
 WebUI.setText(findTestObject('Object Repository/Page_Dataplace SFA/textarea_Informaes adicionais_informacoesAd_bba3cb'), 
     'TESTE')
+
+
 
 WebUI.click(findTestObject('Object Repository/Page_Dataplace SFA/div_Confirmar'))
 
 WebUI.closeBrowser()
+
 

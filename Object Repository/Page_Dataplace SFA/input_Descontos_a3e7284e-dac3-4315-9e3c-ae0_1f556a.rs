@@ -6,12 +6,19 @@
    <elementGuidId>75fb6645-8660-408e-92a1-f4cb18f40097</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='a3e7284e-dac3-4315-9e3c-ae0c06bcdd46']</value>
+         <key>CSS</key>
+         <value>/html/body/ngb-modal-window/div/div/app-pedido-item-edit/div[2]/div[1]/div[4]/div[2]/div/div/input</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#a3e7284e-dac3-4315-9e3c-ae0c06bcdd46</value>
+         <key>XPATH</key>
+         <value>/html/body/ngb-modal-window/div/div/app-pedido-item-edit/div[2]/div[1]/div[4]/div[2]/div/div/input
+
+
+</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'a3e7284e-dac3-4315-9e3c-ae0c06bcdd46']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='a3e7284e-dac3-4315-9e3c-ae0c06bcdd46']</value>
+      <value>//input[@id='db7debd2-5b87-4363-b66e-871b6e8c134b']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,6 +70,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'a3e7284e-dac3-4315-9e3c-ae0c06bcdd46']</value>
+      <value>//input[@id='db7debd2-5b87-4363-b66e-871b6e8c134b']</value>
    </webElementXpaths>
 </WebElementEntity>

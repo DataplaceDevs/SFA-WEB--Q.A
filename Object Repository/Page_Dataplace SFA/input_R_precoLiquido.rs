@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-untouched ng-pristine ng-valid</value>
+      <value>form-control ng-pristine ng-valid ng-touched</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
